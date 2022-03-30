@@ -1,0 +1,49 @@
+{
+    "name": "MemberCounterMeta",
+    "description": "Powerful Telegram bot to do a real-time subscriber or member count for all types of groups and channels.",
+    "repository": "https://github.com/teletips/MemberCounterMeta",
+    "keywords": [
+        "Telegram Subscriber Counter Bot",
+        "Telegram Member Counter Bot",
+        "Real-Time Subscriber Counter",
+        "Telegram Channels And Groups",
+        "Telegram Bot"
+    ],
+    "env": {
+        "API_ID": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "SESSION_NAME": {
+            "description": "A valid Pyrogram session name",
+            "required": true
+        },
+        "CHANNEL_OR_GROUP_LIST": {
+            "description": "List of channel and group ids  (Example: -1001357289914 -1001658289913 -1001357223413)",
+            "required": true
+        },
+       "CHANNEL_OR_GROUP_ID": {
+            "description": "Main channel's or group's Telegram id (Example: -1001246808642)",
+            "required": true
+        },
+       "MESSAGE_ID": {
+            "description": "Telegram id of a message from your main channel or group (Example: 10)",
+            "required": true
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
