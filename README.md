@@ -22,7 +22,10 @@
 6. `MESSAGE_ID` : Telegram id of a message from your main channel or group (Example: 10)
 
 ## Commands
-### Send !status to any kind of chat to check whether bot is alive.
+
+```
+Send !status to any kind of chat to check whether bot is alive.
+```
 
 
 <p align="center">
