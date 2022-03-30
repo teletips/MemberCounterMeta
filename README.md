@@ -22,7 +22,7 @@
 6. `MESSAGE_ID` : Telegram id of a message from your main channel or group (Example: 10)
 
 <p align="center">
-<img src="https://telegra.ph/file/577fd708b51a9c60053f7.jpg">
+<img src="https://telegra.ph//file/879fa15b7955eb4ea47dd.jpg">
 <p>
  
 ## Deployment Methods
