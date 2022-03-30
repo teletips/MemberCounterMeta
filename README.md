@@ -23,6 +23,7 @@
 
 ## Commands
 
+### !status
 ```
 Send !status to any kind of chat to check whether bot is alive.
 ```
