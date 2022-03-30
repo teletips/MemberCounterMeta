@@ -28,6 +28,7 @@
 Send !status to any kind of chat to check whether bot is alive.
 ```
 
+## Preview
 
 <p align="center">
 <img src="https://telegra.ph//file/879fa15b7955eb4ea47dd.jpg">
@@ -49,7 +50,7 @@ Send !status to any kind of chat to check whether bot is alive.
 - [Thakshaka](https://t.me/thakshakar)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-## Warning ⚠️
+## Warning
 
 - Changing the code is NOT ALLOWED!    
 - You are free to use this code in any of your projects, but you MUST include the following in your README.md (Copy & paste)
@@ -58,5 +59,5 @@ Send !status to any kind of chat to check whether bot is alive.
 ##Credits
 - [MemberCounterMeta Telegram bot by TeLe TiPs] (https://github.com/teletips/MemberCounterMeta)
 ```
-## Read GNU AFFERO GENERAL PUBLIC LICENSE: 
+## Read LICENSE: 
 [LICENSE](https://github.com/teletips/MemberCounterMeta/blob/main/LICENSE)
