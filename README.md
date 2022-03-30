@@ -59,5 +59,5 @@ Send !status to any kind of chat to check whether bot is alive.
 ##Credits
 - [MemberCounterMeta Telegram bot by TeLe TiPs] (https://github.com/teletips/MemberCounterMeta)
 ```
-## Read LICENSE: 
+## Read License: 
 [LICENSE](https://github.com/teletips/MemberCounterMeta/blob/main/LICENSE)
