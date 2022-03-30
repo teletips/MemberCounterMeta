@@ -21,6 +21,10 @@
 5. `CHANNEL_OR_GROUP_ID` : Main channel's or group's Telegram id (Example: -1001246808642)
 6. `MESSAGE_ID` : Telegram id of a message from your main channel or group (Example: 10)
 
+## Commands
+### Send !status to any kind of chat to check whether bot is alive.
+
+
 <p align="center">
 <img src="https://telegra.ph//file/879fa15b7955eb4ea47dd.jpg">
 <p>
