@@ -51,7 +51,7 @@ Send !status to any kind of chat to check whether bot is alive.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teletips/MemberCounterMeta)
   
 ## Versions
-- 1.0 Meta  
+1. [1.0 Meta](https://github.com/teletips/MemberCounterMeta)  
     
 ## Credits
 - [TeLe TiPs](https://github.com/teletips)
