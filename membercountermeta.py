@@ -35,15 +35,15 @@ async def main_MemberCounterMeta():
                         else:
                             edit_message_text_teletips += f"\n\n💬  **{get_chat_teletips.title}**\n👤 ├ <i>{get_chat_teletips.members_count} Members</i>\n🔗 └ <i>[Link]({get_chat_teletips.invite_link})</i>" 
                         await asyncio.sleep(2)
-                    except Exception:
-                        print(f'ID not found: {CHANNEL_OR_GROUP }')                       
-                edit_message_text_teletips += f"\n\n<i>Automatically refreshes every 15 minutes</i>"
+                    except ValueError:
+                        print(f'ID not found: {CHANNEL_OR_GROUP }. Skipping...')                       
+                edit_message_text_teletips += f"\n\n<i>Automatically refreshes every minute</i>"
                 try:
                     await MemberCounterMeta.edit_message_text(int(CHANNEL_OR_GROUP_ID), MESSAGE_ID, edit_message_text_teletips, disable_web_page_preview=True)
                 except Exception:
                     pass    
                 print(text_3)              
-                await asyncio.sleep(15*60) # 900 seconds
+                await asyncio.sleep(900) # 15 minutes = 900 seconds
         except FloodWait as e:
             await asyncio.sleep(e.x)
 
@@ -53,7 +53,6 @@ async def alive(_, message: Message):
     await asyncio.sleep(10)
     await message.delete()                   
                         
-asyncio.ensure_future(main_MemberCounterMeta())
-MemberCounterMeta.run()
+MemberCounterMeta.run(main_MemberCounterMeta())
 
 #Copyright ©️ 2022 TeLe TiPs. All Rights Reserved
