@@ -26,7 +26,7 @@ async def main_MemberCounterMeta():
         try:
             while True:
                 print(text_2)
-                edit_message_text_teletips = "**📈 | Real-Time Member Counter** [ᵐᵉᵗᵃ](https://github.com/teletips/MemberCounterMeta)"
+                edit_message_text_teletips = "**📈 | Real-Time Member Counter** [ᵐᵉᵗᵃ](https://github.com/teletips/MemberCounterMeta#:~:text=Versions-,1.0%20Meta,-Credits)"
                 for CHANNEL_OR_GROUP in CHANNEL_OR_GROUP_LIST:
                     try:
                         get_chat_teletips = await MemberCounterMeta.get_chat(int(CHANNEL_OR_GROUP))   
