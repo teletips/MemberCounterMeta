@@ -14,7 +14,7 @@
 </p>  
 
 ## Config Vars
-1. `API_ID` : Telegram API_ID, get it from my.telegram.org/apps
+1. [`API_ID`](my.telegram.org/apps) : Telegram API_ID, get it from my.telegram.org/apps
 2. `API_HASH` : Telegram API_ID, get it from my.telegram.org/apps
 3. `SESSION_NAME` : A valid Pyrogram session name
 4. `CHANNEL_OR_GROUP_LIST`: List of channel and group ids  (Example: -1001357289914 -1001658289913 -1001357223413)
