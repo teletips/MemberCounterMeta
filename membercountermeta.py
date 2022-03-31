@@ -37,7 +37,7 @@ async def main_MemberCounterMeta():
                         await asyncio.sleep(2)
                     except ValueError:
                         print(f'ID not found: {CHANNEL_OR_GROUP }. Skipping...')                       
-                edit_message_text_teletips += f"\n\n<i>Automatically refreshes every minute</i>"
+                edit_message_text_teletips += f"\n\n<i>Automatically refreshes every 15 minutes</i>"
                 try:
                     await MemberCounterMeta.edit_message_text(int(CHANNEL_OR_GROUP_ID), MESSAGE_ID, edit_message_text_teletips, disable_web_page_preview=True)
                 except Exception:
