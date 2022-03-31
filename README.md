@@ -21,6 +21,14 @@
 5. `CHANNEL_OR_GROUP_ID` : Main channel's or group's Telegram id (Example: -1001246808642)
 6. `MESSAGE_ID` : Telegram id of a message from your main channel or group (Example: 10)
 
+## Features
+
+- Supports all types of channels and groups (private and public)
+- Only uses Telegram IDs
+- Has an option to check whether bot is alive or not
+- Fast & Light
+- Safe
+
 ## Commands
 
 ### !status
@@ -38,7 +46,7 @@ Send !status to any kind of chat to check whether bot is alive.
 
 ### Heroku
 
-🎥 Tutorial Video (will be added soon)   
+🎥 [Tutorial Video](https://youtu.be/LLZvcPgmFjE)   
     
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teletips/MemberCounterMeta)
   
