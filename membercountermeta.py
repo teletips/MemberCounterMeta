@@ -49,7 +49,7 @@ async def main_MemberCounterMeta():
 
 @MemberCounterMeta.on_message(filters.command("status", "!") & filters.me)
 async def alive(_, message: Message):
-    await message.edit("Your bot is alive!")
+    await message.edit("Your MemberCounter is alive!")
     await asyncio.sleep(10)
     await message.delete()                   
                         
