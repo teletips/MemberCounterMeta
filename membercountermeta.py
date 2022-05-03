@@ -12,9 +12,10 @@ import asyncio
 from texts.texts_teletips import *
 
 MemberCounterMeta = Client(
+    name = "membercountermeta",
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"],
-    session_name = os.environ["SESSION_NAME"]
+    session_string = os.environ["SESSION_STRING"]
 )
 CHANNEL_OR_GROUP_LIST = [i.strip() for i in os.environ.get("CHANNEL_OR_GROUP_LIST").split(' ')]
 CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID"])
